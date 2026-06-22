@@ -3,8 +3,6 @@
 import * as React from "react";
 import { ScrollIndicator } from "@/components/scroll-indicator";
 
-const TITLE = "创造未来";
-const TITLE_HIGHLIGHT = "用代码与想象";
 const TAGLINE = "AI · Web3 · 币股联动 · 终身学习者";
 
 export function Hero() {
@@ -17,31 +15,23 @@ export function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(hsl(var(--accent)/0.03)_1px,transparent_1px)] [background-size:40px_40px]" />
 
       <div className="relative z-20 max-w-4xl mx-auto px-6 text-center">
-        {/* Eyebrow */}
-        <div className="mb-6">
-          <span className="inline-block text-xs font-mono tracking-[0.2em] uppercase text-muted-foreground">
-            Venz &mdash; 2026
-          </span>
-        </div>
-
         {/* Main title */}
-        <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.05] tracking-tight">
-          <span className="block text-accent">{TITLE}</span>
-          <span className="block text-foreground mt-2">{TITLE_HIGHLIGHT}</span>
+        <h1 className="font-heading text-7xl sm:text-8xl md:text-9xl font-bold tracking-tight text-accent">
+          Venz
         </h1>
 
         {/* Tagline */}
-        <p className="mt-8 text-base sm:text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed">
+        <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto leading-relaxed">
           {TAGLINE}
         </p>
 
         {/* CTA */}
         <div className="mt-10 flex items-center justify-center gap-4">
           <a
-            href="#projects"
+            href="#domains"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-accent text-accent-foreground text-sm font-medium hover:opacity-90 transition-opacity"
           >
-            查看项目
+            探索领域
           </a>
           <a
             href="#contact"
