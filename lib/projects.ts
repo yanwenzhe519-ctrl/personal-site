@@ -12,7 +12,7 @@ export const projects: Project[] = [
     description:
       "链上衍生宇宙 Agent —— 在 Z.AI 黑客松中构建的去中心化 IP 编织协议，让数字资产在链上自主演化。",
     tags: ["AI", "Blockchain", "Agent"],
-    href: "#",
+    href: "https://github.com/yanwenzhe519-ctrl",
   },
   {
     title: "Nebula UI",
