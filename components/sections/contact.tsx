@@ -2,26 +2,32 @@
 
 import * as React from "react";
 import { SectionReveal } from "@/components/section-reveal";
-import { Mail, Github, MessageCircle } from "lucide-react";
+import { Mail, Github, MessageCircle, Send } from "lucide-react";
 
 const CONTACT_LINKS = [
   {
     label: "Email",
-    value: "hello@example.com",
-    href: "mailto:hello@example.com",
+    value: "yanwenzhe519@gmail.com",
+    href: "mailto:yanwenzhe519@gmail.com",
     icon: Mail,
   },
   {
     label: "GitHub",
-    value: "@yourusername",
-    href: "https://github.com/yourusername",
+    value: "yanwenzhe519-ctrl",
+    href: "https://github.com/yanwenzhe519-ctrl",
     icon: Github,
   },
   {
     label: "WeChat",
-    value: "your_wechat_id",
+    value: "runzeyy",
     href: "#",
     icon: MessageCircle,
+  },
+  {
+    label: "Telegram",
+    value: "@wenzherunze",
+    href: "https://t.me/wenzherunze",
+    icon: Send,
   },
 ];
 
@@ -30,7 +36,7 @@ function CopyEmailButton() {
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText("hello@example.com");
+      await navigator.clipboard.writeText("yanwenzhe519@gmail.com");
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
@@ -69,7 +75,7 @@ export function Contact() {
           </p>
         </SectionReveal>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {CONTACT_LINKS.map((link, i) => {
             const Icon = link.icon;
 
