@@ -6,6 +6,9 @@ import { ThemeToggle } from "./theme-toggle";
 
 const NAV_LINKS = [
   { label: "关于", href: "#about" },
+  { label: "领域", href: "#domains" },
+  { label: "学习", href: "#learning" },
+  { label: "币股联动", href: "#crypto-stock" },
   { label: "项目", href: "#projects" },
   { label: "联系", href: "#contact" },
 ];

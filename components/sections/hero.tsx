@@ -5,7 +5,7 @@ import { ScrollIndicator } from "@/components/scroll-indicator";
 
 const TITLE = "用代码与想象";
 const TITLE_HIGHLIGHT = "创造未来";
-const TAGLINE = "全栈开发者 · AI 探索者 · 开源爱好者";
+const TAGLINE = "AI · Web3 · 币股联动 · 终身学习者";
 
 export function Hero() {
   return (

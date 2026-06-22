@@ -3,8 +3,8 @@ import { SectionReveal } from "@/components/section-reveal";
 const STATS = [
   { label: "从业经验", value: "4+" },
   { label: "项目", value: "12" },
-  { label: "技术栈", value: "20+" },
-  { label: "开源贡献", value: "8" },
+  { label: "领域", value: "4" },
+  { label: "终身学习", value: "∞" },
 ];
 
 export function About() {
@@ -20,24 +20,25 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 md:gap-20">
           <SectionReveal delay={100}>
             <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-foreground mb-6">
-              把复杂想法变成
-              <span className="text-accent">优雅</span>的数字体验
+              在 AI、Web3 与金融的
+              <span className="text-accent">交汇处</span>
+              持续探索
             </h2>
           </SectionReveal>
 
           <SectionReveal delay={200}>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                我是一名全栈开发者，热衷于构建处于技术前沿的产品 &mdash; 从 AI Agent
-                和区块链协议到响应式 Web 应用。
+                我是小<span className="text-accent font-medium">u</span>，一个穿梭在代码、加密世界与金融市场之间的探索者。
+                我相信技术的力量，更相信持续学习能让一切边界变得模糊。
               </p>
               <p>
-                目前正深入探索 AI 与去中心化系统的交汇点。我相信最有趣的工作，
-                往往发生在将看似不相关的想法碰撞在一起的时候。
+                从 AI Agent 到区块链协议，从美股分析到内容创作 &mdash;
+                我关注那些正在重塑世界的技术浪潮，并致力于理解它们之间的内在联系。
               </p>
               <p>
-                不写代码的时候，我会探索新工具、贡献开源项目，
-                或思考技术如何塑造更好的人类体验。
+                「币股融合」是我目前深耕的方向：研究加密货币与美股市场的联动规律，
+                用数据驱动的方法在两大市场之间寻找机会。
               </p>
             </div>
           </SectionReveal>
