@@ -6,9 +6,9 @@ import { Footer } from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "小u | 开发者 & 创造者",
+  title: "Venz | 创造者",
   description:
-    "全栈开发者，用代码与想象打造优雅的数字体验。",
+    "AI · Web3 · 币股联动 · 终身学习者",
 };
 
 export default function RootLayout({

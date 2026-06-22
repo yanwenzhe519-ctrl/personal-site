@@ -3,8 +3,8 @@
 import * as React from "react";
 import { ScrollIndicator } from "@/components/scroll-indicator";
 
-const TITLE = "用代码与想象";
-const TITLE_HIGHLIGHT = "创造未来";
+const TITLE = "创造未来";
+const TITLE_HIGHLIGHT = "用代码与想象";
 const TAGLINE = "AI · Web3 · 币股联动 · 终身学习者";
 
 export function Hero() {
@@ -20,14 +20,14 @@ export function Hero() {
         {/* Eyebrow */}
         <div className="mb-6">
           <span className="inline-block text-xs font-mono tracking-[0.2em] uppercase text-muted-foreground">
-            个人作品集 &mdash; 2026
+            Venz &mdash; 2026
           </span>
         </div>
 
         {/* Main title */}
         <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.05] tracking-tight">
-          <span className="block text-foreground">{TITLE}</span>
-          <span className="block text-accent mt-2">{TITLE_HIGHLIGHT}</span>
+          <span className="block text-accent">{TITLE}</span>
+          <span className="block text-foreground mt-2">{TITLE_HIGHLIGHT}</span>
         </h1>
 
         {/* Tagline */}

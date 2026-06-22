@@ -36,7 +36,7 @@ export function Nav() {
           href="#"
           className="font-heading text-lg font-semibold tracking-tight text-foreground hover:text-accent transition-colors"
         >
-          小u<span className="text-accent">.</span>
+          Venz<span className="text-accent">.</span>
         </a>
 
         <div className="flex items-center gap-6 md:gap-8">

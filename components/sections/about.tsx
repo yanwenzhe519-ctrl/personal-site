@@ -29,7 +29,7 @@ export function About() {
           <SectionReveal delay={200}>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                我是小<span className="text-accent font-medium">u</span>，一个穿梭在代码、加密世界与金融市场之间的探索者。
+                我是 <span className="text-accent font-medium">Venz</span>，一个穿梭在代码、加密世界与金融市场之间的探索者。
                 我相信技术的力量，更相信持续学习能让一切边界变得模糊。
               </p>
               <p>
