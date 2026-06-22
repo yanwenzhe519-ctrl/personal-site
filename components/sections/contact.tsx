@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { SectionReveal } from "@/components/section-reveal";
-import { Mail, Github, MessageCircle, Send, XIcon } from "lucide-react";
+import { Mail, Github, MessageCircle, Send } from "lucide-react";
 
 const CONTACT_LINKS = [
   {
@@ -28,12 +28,6 @@ const CONTACT_LINKS = [
     value: "@wenzherunze",
     href: "https://t.me/wenzherunze",
     icon: Send,
-  },
-  {
-    label: "X (Twitter)",
-    value: "@wenzherunze",
-    href: "https://x.com/wenzherunze",
-    icon: XIcon,
   },
 ];
 
@@ -79,7 +73,7 @@ export function Contact() {
           </p>
         </SectionReveal>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {CONTACT_LINKS.map((link, i) => {
             const Icon = link.icon;
 
