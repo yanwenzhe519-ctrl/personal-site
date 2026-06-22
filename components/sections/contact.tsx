@@ -49,7 +49,7 @@ function CopyEmailButton() {
       onClick={handleCopy}
       className="mt-6 text-sm text-muted-foreground hover:text-accent transition-colors font-mono"
     >
-      {copied ? "✓ Copied!" : "Click to copy email"}
+      {copied ? "✓ 已复制！" : "点击复制邮箱"}
     </button>
   );
 }
@@ -66,12 +66,10 @@ export function Contact() {
 
         <SectionReveal delay={100}>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-foreground mb-6">
-            Let&apos;s{" "}
-            <span className="text-accent">connect</span>
+            保持<span className="text-accent">联系</span>
           </h2>
           <p className="text-muted-foreground max-w-lg mb-16">
-            Whether you have a project in mind, want to collaborate, or just
-            want to say hi &mdash; I&apos;d love to hear from you.
+            无论是想一起做项目、合作，还是只是想打个招呼 &mdash; 我都很期待收到你的消息。
           </p>
         </SectionReveal>
 
@@ -112,7 +110,7 @@ export function Contact() {
           <div className="mt-16 pt-8 border-t border-border text-center">
             <CopyEmailButton />
             <p className="mt-3 text-xs text-muted-foreground font-mono tracking-wide">
-              Available for freelance &amp; collaboration
+              可接 freelance &amp; 合作
             </p>
           </div>
         </SectionReveal>

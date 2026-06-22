@@ -19,11 +19,10 @@ export function Projects() {
 
         <SectionReveal delay={100}>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-foreground mb-4">
-            Selected work
+            精选项目
           </h2>
           <p className="text-muted-foreground max-w-lg mb-16">
-            A collection of projects I&apos;ve built, contributed to, and
-            poured my curiosity into.
+            这些是我亲手构建、贡献过、倾注了好奇心的项目。
           </p>
         </SectionReveal>
 

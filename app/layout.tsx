@@ -6,9 +6,9 @@ import { Footer } from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "小u | Developer & Creator",
+  title: "小u | 开发者 & 创造者",
   description:
-    "Full-stack developer crafting elegant digital experiences at the intersection of code and imagination.",
+    "全栈开发者，用代码与想象打造优雅的数字体验。",
 };
 
 export default function RootLayout({

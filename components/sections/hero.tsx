@@ -3,10 +3,9 @@
 import * as React from "react";
 import { ScrollIndicator } from "@/components/scroll-indicator";
 
-const TITLE = "Creating at the";
-const TITLE_HIGHLIGHT = "Intersection";
-const SUBTITLE = "of Code & Imagination";
-const TAGLINE = "Full-stack developer · AI explorer · Open source enthusiast";
+const TITLE = "用代码与想象";
+const TITLE_HIGHLIGHT = "创造未来";
+const TAGLINE = "全栈开发者 · AI 探索者 · 开源爱好者";
 
 export function Hero() {
   return (
@@ -21,7 +20,7 @@ export function Hero() {
         {/* Eyebrow */}
         <div className="mb-6">
           <span className="inline-block text-xs font-mono tracking-[0.2em] uppercase text-muted-foreground">
-            Portfolio &mdash; 2026
+            个人作品集 &mdash; 2026
           </span>
         </div>
 
@@ -29,7 +28,6 @@ export function Hero() {
         <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.05] tracking-tight">
           <span className="block text-foreground">{TITLE}</span>
           <span className="block text-accent mt-2">{TITLE_HIGHLIGHT}</span>
-          <span className="block text-foreground mt-2">{SUBTITLE}</span>
         </h1>
 
         {/* Tagline */}
@@ -43,13 +41,13 @@ export function Hero() {
             href="#projects"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-accent text-accent-foreground text-sm font-medium hover:opacity-90 transition-opacity"
           >
-            View Projects
+            查看项目
           </a>
           <a
             href="#contact"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground text-sm font-medium hover:bg-accent-soft transition-colors"
           >
-            Get in Touch
+            联系我
           </a>
         </div>
       </div>

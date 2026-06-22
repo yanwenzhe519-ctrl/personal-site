@@ -5,9 +5,9 @@ import { cn } from "@/lib/utils";
 import { ThemeToggle } from "./theme-toggle";
 
 const NAV_LINKS = [
-  { label: "About", href: "#about" },
-  { label: "Projects", href: "#projects" },
-  { label: "Contact", href: "#contact" },
+  { label: "关于", href: "#about" },
+  { label: "项目", href: "#projects" },
+  { label: "联系", href: "#contact" },
 ];
 
 export function Nav() {

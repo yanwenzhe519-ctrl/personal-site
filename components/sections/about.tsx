@@ -1,10 +1,10 @@
 import { SectionReveal } from "@/components/section-reveal";
 
 const STATS = [
-  { label: "Years Building", value: "4+" },
-  { label: "Projects", value: "12" },
-  { label: "Technologies", value: "20+" },
-  { label: "Open Source", value: "8" },
+  { label: "从业经验", value: "4+" },
+  { label: "项目", value: "12" },
+  { label: "技术栈", value: "20+" },
+  { label: "开源贡献", value: "8" },
 ];
 
 export function About() {
@@ -20,28 +20,24 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 md:gap-20">
           <SectionReveal delay={100}>
             <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-foreground mb-6">
-              Turning complex ideas into
-              <span className="text-accent"> elegant</span> digital experiences
+              把复杂想法变成
+              <span className="text-accent">优雅</span>的数字体验
             </h2>
           </SectionReveal>
 
           <SectionReveal delay={200}>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                I&apos;m a full-stack developer passionate about building
-                products that live at the edge of technology &mdash; from AI
-                agents and blockchain protocols to responsive web applications.
+                我是一名全栈开发者，热衷于构建处于技术前沿的产品 &mdash; 从 AI Agent
+                和区块链协议到响应式 Web 应用。
               </p>
               <p>
-                Currently diving deep into the intersection of AI and
-                decentralized systems, I believe the most interesting work
-                happens when you bring together seemingly unrelated ideas and
-                let them collide.
+                目前正深入探索 AI 与去中心化系统的交汇点。我相信最有趣的工作，
+                往往发生在将看似不相关的想法碰撞在一起的时候。
               </p>
               <p>
-                When I&apos;m not coding, you&apos;ll find me exploring new
-                tools, contributing to open source, or thinking about how
-                technology can shape better human experiences.
+                不写代码的时候，我会探索新工具、贡献开源项目，
+                或思考技术如何塑造更好的人类体验。
               </p>
             </div>
           </SectionReveal>
